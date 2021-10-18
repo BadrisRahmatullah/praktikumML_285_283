@@ -81,8 +81,7 @@ Give credit here.
 - Many thanks to...
 
 
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+
 
 
 <!-- Optional -->
