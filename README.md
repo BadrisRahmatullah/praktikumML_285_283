@@ -36,10 +36,12 @@ Link Dataset : https://www.kaggle.com/andrewmvd/lung-and-colon-cancer-histopatho
 
 
 ## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+#Kelas datasernya meliputi : 
+- Lung benign tissue
+- Lung adenocarcinoma
+- Lung squamous cell carcinoma
+- Colon adenocarcinoma
+- Colon benign tissue
 
 
 ## Screenshots
@@ -78,8 +80,9 @@ To do:
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was inspired by author= {Andrew A. Borkowski, Marilyn M. Bui, L. Brannon Thomas, Catherine P. Wilson, Lauren A. DeLand, Stephen M. Mastorides},
+url= (https://github.com/tampapath/lung_colon_image_set).
+- This project was based on [Dataset BibTeX](https://github.com/tampapath/lung_colon_image_set).
 - Many thanks to...
 
 
