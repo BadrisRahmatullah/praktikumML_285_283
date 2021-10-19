@@ -7,7 +7,7 @@ Link Dataset : https://www.kaggle.com/andrewmvd/lung-and-colon-cancer-histopatho
 
 ## Konten
 * [Informasi](#general-information)
-* [Metode](#technologies-used)
+* [Library](#technologies-used)
 * [Features](#features)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
@@ -27,10 +27,12 @@ Link Dataset : https://www.kaggle.com/andrewmvd/lung-and-colon-cancer-histopatho
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
-## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+## Library
+- Tensorflow 2.0
+- Keras
+- Matplotlib
+- numpy
+- glob
 
 
 ## Features
