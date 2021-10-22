@@ -21,9 +21,9 @@ Link Dataset : https://www.kaggle.com/andrewmvd/lung-and-colon-cancer-histopatho
 
 
 ## General Information
-- dataset yang digunakan adalah dataset citra.
-- jumlah dataset 25000.
-- terbagi dalam 5 class
+- Dataset yang digunakan berjudul "Lung and Colon Cancer Histopathological Images" yang merupakan dataset citra.
+- Jumlah dataset 25000.
+- Terbagi dalam 5 class
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
@@ -32,12 +32,12 @@ Link Dataset : https://www.kaggle.com/andrewmvd/lung-and-colon-cancer-histopatho
 - Tensorflow 2.0
 - Keras
 - Matplotlib
-- numpy
-- glob
+- Numpy
+- Glob
 
 
 ## Features
-#Kelas datasernya meliputi : 
+#Kelas datasetnya meliputi : 
 - Lung benign tissue
 - Lung adenocarcinoma
 - Lung squamous cell carcinoma
