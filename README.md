@@ -46,7 +46,7 @@ Link Dataset : https://www.kaggle.com/andrewmvd/lung-and-colon-cancer-histopatho
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./img/sscolon.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
