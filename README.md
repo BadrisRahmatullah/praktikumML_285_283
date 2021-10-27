@@ -1,4 +1,4 @@
-# Lung Cancer Classification using CNN
+# Colon Cancer Classification using CNN
 
 Praktikum Machine Learning A 201810370311285 & 201810370311283
 Temu Kembali Citra A 201810370311285 & 201810370311283
