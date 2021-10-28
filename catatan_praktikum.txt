@@ -1,0 +1,11 @@
+Save model h5
+buat 2 model cnn tanpa transfer learning
+Sprint Project:
+- tanggal mulai 
+- ekspektasi tanggal selesai
+- tanggal selesai
+- kendala
+- solusi
+- break down task sesuai modul praktikum
+
+- Salah jurnal: tidak boleh conference, jurnal metode bukan jurnal dataset
