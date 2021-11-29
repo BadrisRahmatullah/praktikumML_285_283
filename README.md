@@ -72,7 +72,7 @@ Link Dataset : https://www.kaggle.com/andrewmvd/lung-and-colon-cancer-histopatho
 - Activation : relu
 
 - model sequential 2 : Layer, Dense, Conv2D, AveragePool2D, Flatten, BatchNormalization, Dropout, AveragePool2D
-- Activation : relu \n
+- Activation : relu 
 ```
 model = Sequential() 
 
