@@ -1,4 +1,4 @@
-Save model h5
+# Save model h5 (done)
 buat 2 model cnn tanpa transfer learning
 Sprint Project:
 - tanggal mulai 
