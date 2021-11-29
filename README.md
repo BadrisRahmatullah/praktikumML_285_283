@@ -12,7 +12,7 @@ Link Dataset : https://www.kaggle.com/andrewmvd/lung-and-colon-cancer-histopatho
 * [Features](#features)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
-* [Usage](#usage)
+* [Model](#model)
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
@@ -65,11 +65,28 @@ Link Dataset : https://www.kaggle.com/andrewmvd/lung-and-colon-cancer-histopatho
 ** color mode : RGB
 
 
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
 
-`write-your-code-here`
+
+## model
+- model sequential 1 : layer, Dense, Conv2D, MaxPool2D, AveragePooling2D, GlobalMaxPool2D, GlobalAveragePooling2D, Dropout, Flatten
+- Activation : relu
+
+- model sequential 2 : Layer, Dense, Conv2D, AveragePool2D, Flatten, BatchNormalization, Dropout, AveragePool2D
+- Activation : relu
+`model = Sequential()`
+
+`model.add(InputLayer(input_shape=[250,250,3]))`
+`model.add(Conv2D(filters=16, kernel_size=3, strides=1, padding='same', activation='relu'))`
+`model.add(MaxPool2D(pool_size=2, padding='same'))`
+`model.add(Conv2D(filters=32, kernel_size=3, strides=1, padding='same', activation='relu'))`
+`model.add(MaxPool2D(pool_size=2, padding='same'))`
+`model.add(Conv2D(filters=64, kernel_size=3, strides=1, padding='same', activation='relu'))`
+`model.add(MaxPool2D(pool_size=2, padding='same'))`
+`model.add(GlobalMaxPool2D())`
+`model.add(Flatten())`
+
+`model.add(Dense(128, activation='relu'))`
+`model.add(Dense(1, activation='sigmoid'))`
 
 
 ## Project Status
