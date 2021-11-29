@@ -72,7 +72,7 @@ Link Dataset : https://www.kaggle.com/andrewmvd/lung-and-colon-cancer-histopatho
 - Activation : relu
 
 - model sequential 2 : Layer, Dense, Conv2D, AveragePool2D, Flatten, BatchNormalization, Dropout, AveragePool2D
-- Activation : relu 
+- Activation : elu 
 ```
 model = Sequential() 
 
@@ -89,7 +89,27 @@ model.add(Flatten())
 model.add(Dense(128, activation='relu')) 
 model.add(Dense(1, activation='sigmoid')) 
 ```
+```
+model2 = Sequential()
 
+model2.add(InputLayer(input_shape=[250,250,3]))
+model2.add(Conv2D(filters=16, kernel_size=3, strides=1, padding='same', activation='elu'))
+model2.add(BatchNormalization())
+model2.add(AveragePool2D(pool_size=2, padding='same'))
+model2.add(Conv2D(filters=32, kernel_size=3, strides=1, padding='same', activation='elu'))
+model2.add(BatchNormalization())
+model2.add(AveragePool2D(pool_size=2, padding='same'))
+model2.add(Conv2D(filters=64, kernel_size=3, strides=1, padding='same', activation='elu'))
+model2.add(BatchNormalization())
+model2.add(AveragePool2D(pool_size=2, padding='same'))
+model2.add(Dropout(0.25))
+model2.add(Flatten())
+
+model2.add(Dense(128, activation='elu'))
+model2.add(Dropout(0.5))
+model2.add(Dense(5, activation='softmax'))
+
+```
 ## Project Status
 Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
 
