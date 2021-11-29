@@ -73,21 +73,22 @@ Link Dataset : https://www.kaggle.com/andrewmvd/lung-and-colon-cancer-histopatho
 
 - model sequential 2 : Layer, Dense, Conv2D, AveragePool2D, Flatten, BatchNormalization, Dropout, AveragePool2D
 - Activation : relu \n
-model = Sequential() \n
+```
+model = Sequential() 
 
-model.add(InputLayer(input_shape=[250,250,3])) \n
-model.add(Conv2D(filters=16, kernel_size=3, strides=1, padding='same', activation='relu')) \n
-model.add(MaxPool2D(pool_size=2, padding='same')) \n
-model.add(Conv2D(filters=32, kernel_size=3, strides=1, padding='same', activation='relu')) \n
-model.add(MaxPool2D(pool_size=2, padding='same')) \n
-model.add(Conv2D(filters=64, kernel_size=3, strides=1, padding='same', activation='relu')) \n
-model.add(MaxPool2D(pool_size=2, padding='same')) \n
-model.add(GlobalMaxPool2D()) \n
-model.add(Flatten()) \n
+model.add(InputLayer(input_shape=[250,250,3])) 
+model.add(Conv2D(filters=16, kernel_size=3, strides=1, padding='same', activation='relu')) 
+model.add(MaxPool2D(pool_size=2, padding='same')) 
+model.add(Conv2D(filters=32, kernel_size=3, strides=1, padding='same', activation='relu')) 
+model.add(MaxPool2D(pool_size=2, padding='same')) 
+model.add(Conv2D(filters=64, kernel_size=3, strides=1, padding='same', activation='relu')) 
+model.add(MaxPool2D(pool_size=2, padding='same')) 
+model.add(GlobalMaxPool2D()) 
+model.add(Flatten()) 
 
-model.add(Dense(128, activation='relu')) \n
-model.add(Dense(1, activation='sigmoid')) \n
-
+model.add(Dense(128, activation='relu')) 
+model.add(Dense(1, activation='sigmoid')) 
+```
 
 ## Project Status
 Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
