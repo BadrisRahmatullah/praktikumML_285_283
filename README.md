@@ -34,6 +34,7 @@ Link Dataset : https://www.kaggle.com/andrewmvd/lung-and-colon-cancer-histopatho
 - Matplotlib
 - Numpy
 - Glob
+- seaborn
 
 
 ## Features
@@ -51,9 +52,17 @@ Link Dataset : https://www.kaggle.com/andrewmvd/lung-and-colon-cancer-histopatho
 
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
+- prepocessing step :
+* Splitting data 80:19:1 (80 train, 19 test, 1 validation)
+- Augmentation :
+* ImageDataGenerator : 
+** rescale : 1/255
+** rotation range : 40
+** width and height shift range : 0.2
+** zoom range : 0.2
+** horizontal flip
+** fill mode : nearest
+** color mode : RGB
 
 
 ## Usage
