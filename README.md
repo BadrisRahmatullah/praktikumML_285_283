@@ -24,6 +24,7 @@ Link Dataset : https://www.kaggle.com/andrewmvd/lung-and-colon-cancer-histopatho
 - Dataset yang digunakan berjudul "Lung and Colon Cancer Histopathological Images" yang merupakan dataset citra.
 - Jumlah dataset 25000.
 - Terbagi dalam 5 class
+- kami menggunakan 2 kelas colon sebagai bahan uji dengan 10000 data
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
@@ -33,7 +34,6 @@ Link Dataset : https://www.kaggle.com/andrewmvd/lung-and-colon-cancer-histopatho
 - Keras
 - Matplotlib
 - Numpy
-- Glob
 - seaborn
 
 
@@ -63,13 +63,16 @@ Link Dataset : https://www.kaggle.com/andrewmvd/lung-and-colon-cancer-histopatho
 ** horizontal flip
 ** fill mode : nearest
 ** color mode : RGB
+* hyper parameter : Optimizer(adam), learningrate(0,000001), loss(binary_crossentrophy)
+* jumlah epoch : 100
+* hasil akurasi : 0.85 dengan precision(0.98), recall(0.86), f1-score(0.92)
 
 
 
 
 ## model
 - model sequential 1 : layer, Dense, Conv2D, MaxPool2D, AveragePooling2D, GlobalMaxPool2D, GlobalAveragePooling2D, Dropout, Flatten
-- Activation : relu
+- Activation : elu
 
 - model sequential 2 : Layer, Dense, Conv2D, AveragePool2D, Flatten, BatchNormalization, Dropout, AveragePool2D
 - Activation : elu 
@@ -77,11 +80,11 @@ Link Dataset : https://www.kaggle.com/andrewmvd/lung-and-colon-cancer-histopatho
 model = Sequential() 
 
 model.add(InputLayer(input_shape=[250,250,3])) 
-model.add(Conv2D(filters=16, kernel_size=3, strides=1, padding='same', activation='relu')) 
+model.add(Conv2D(filters=16, kernel_size=3, strides=1, padding='same', activation='elu')) 
 model.add(MaxPool2D(pool_size=2, padding='same')) 
-model.add(Conv2D(filters=32, kernel_size=3, strides=1, padding='same', activation='relu')) 
+model.add(Conv2D(filters=32, kernel_size=3, strides=1, padding='same', activation='elu')) 
 model.add(MaxPool2D(pool_size=2, padding='same')) 
-model.add(Conv2D(filters=64, kernel_size=3, strides=1, padding='same', activation='relu')) 
+model.add(Conv2D(filters=64, kernel_size=3, strides=1, padding='same', activation='elu')) 
 model.add(MaxPool2D(pool_size=2, padding='same')) 
 model.add(GlobalMaxPool2D()) 
 model.add(Flatten()) 
@@ -131,7 +134,7 @@ Give credit here.
 - This project was inspired by author= {Andrew A. Borkowski, Marilyn M. Bui, L. Brannon Thomas, Catherine P. Wilson, Lauren A. DeLand, Stephen M. Mastorides},
 url= (https://github.com/tampapath/lung_colon_image_set).
 - This project was based on [Dataset BibTeX](https://github.com/tampapath/lung_colon_image_set).
-- Many thanks to...
+- Many thanks to Me XD
 
 
 
