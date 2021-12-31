@@ -114,34 +114,29 @@ model2.add(Dense(5, activation='softmax'))
 
 ```
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+Project is: COMPLETE.
 
 
 ## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
+Masih banyak improve yang bisa dilakukan pada project ini, seperti.
 
 Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
+- Model
+- Preprocessing
+- Data Augmentasi
 
 To do:
-- Feature to be added 1
-- Feature to be added 2
-
+- Tambah model dengan akurasi lebih baik
+- Mencoba dengan jumlah data yang lebih besar
+- Mengubah data augmentasi yang ada dengan data augmentasi yang lebih baik
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by author= {Andrew A. Borkowski, Marilyn M. Bui, L. Brannon Thomas, Catherine P. Wilson, Lauren A. DeLand, Stephen M. Mastorides},
-url= (https://github.com/tampapath/lung_colon_image_set).
-- This project was based on [Dataset BibTeX](https://github.com/tampapath/lung_colon_image_set).
-- Many thanks to Me XD
+- https://github.com/BadrisRahmatullah/praktikumML_285_283/edit/main/README.md
+- Thanks to Chamisfun
 
 
 
 
 
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
 
-<!-- You don't have to include all sections - just the one's relevant to your project -->
