@@ -133,7 +133,8 @@ To do:
 ## Acknowledgements
 Give credit here.
 - https://github.com/BadrisRahmatullah/praktikumML_285_283/edit/main/README.md
-- Thanks to Chamisfun
+- Thanks to Chamisfun selaku asisten lab yang membingbing
+- Pak Agus Eko Minarno selaku dosen pengampu matkul machine learning
 
 
 
